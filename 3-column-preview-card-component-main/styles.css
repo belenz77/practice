@@ -1,0 +1,35 @@
+body{ font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;margin: 0px;
+    display: flex;
+   
+    justify-content: center;/*para centarlo*/
+}
+.big{ font-family: 'Big Shoulders Display', cursive;}
+h2{font-family: 'Big Shoulders Display', cursive; color: #fff; text-transform: uppercase;}
+p{ font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+color: #fff; font-weight: 400; line-height: 25px;    margin-bottom: 50px;}
+.row{ display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+    max-width: 1440px;
+    padding: 1em;}
+   .col1{ background-color: hsl(31, 77%, 52%); border-radius: 5px 0 0 5px; 
+    background-image: url(images/icon-sedans.svg);
+background-repeat: no-repeat;}
+   .col2{background-color: hsl(184, 100%, 22%);  background-repeat: no-repeat; background-image: url(images/icon-suvs.svg);}
+    .col3{background-color: hsl(179, 100%, 13%); background-repeat: no-repeat;  background-image: url(images/icon-luxury.svg);   border-radius: 0px 5px 5px 0;/* borde arriba dcha y abajo dcha*/
+    }
+    .row div{
+        margin: 20px auto;
+        
+        padding: 25%;
+    }
+    .btnMore{
+        text-decoration: none;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 50px;
+    }
